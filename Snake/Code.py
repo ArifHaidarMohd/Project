@@ -1,8 +1,7 @@
-
 import pygame
 import random
 
-# setting up some initial parameters
+# setting up some initial parameters.
 WIDTH, HEIGHT = 600, 600
 BLOCK_SIZE = 20
 
@@ -17,7 +16,7 @@ RED = (255, 0, 0)
 # initialize pygame
 pygame.init()
 
-# setting up display
+# display
 win = pygame.display.set_mode((WIDTH, HEIGHT))
 
 # setting up clock
